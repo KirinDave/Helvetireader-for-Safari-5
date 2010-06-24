@@ -13,7 +13,7 @@
 	<key>CFBundleShortVersionString</key>
 	<string>1.1</string>
 	<key>CFBundleVersion</key>
-	<string>5</string>
+	<string>6</string>
 	<key>Chrome</key>
 	<dict>
 		<key>Global Page</key>
@@ -63,7 +63,7 @@
 		</dict>
 	</dict>
 	<key>Update Manifest URL</key>
-	<string>http://github.com/downloads/KirinDave/Helvetireader-for-Safari-5/helvetireader-update-manifest.plist</string>
+	<string>http://s3.amazonaws.com/helvetireader/update-manifest.plist</string>
 	<key>Website</key>
 	<string>http://helvetireader.com</string>
 </dict>
