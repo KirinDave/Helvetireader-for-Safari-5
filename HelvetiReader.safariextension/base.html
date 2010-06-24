@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Helvetireader Global</title>
+<script type="text/javascript">
+  
+  function respondToMessage(theEvent)
+  {
+    if(theEvent.name === "shouldSwapFavicon") {
+      if(safari.extension.settings.swapfavicon)
+      {
+        theEvent.target.page.dispatchMessage("swapFavicon",null);
+      }
+    }
+  }
+  
+  safari.application.addEventListener("message",respondToMessage,false);
+</script>
+</head>
+<body> Did you ever play Chrono Trigger, and there was a developer's room?
+       I think FF2 had it too. This is like that. You can imagine a lonely
+       lamppost here.
+</body>
+</html>

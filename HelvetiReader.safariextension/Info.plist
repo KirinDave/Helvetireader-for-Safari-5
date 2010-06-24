@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Author</key>
+	<string>Dave Fayram (CSS by Jon Hicks)</string>
+	<key>CFBundleDisplayName</key>
+	<string>HelvetiReader</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.helvetireader</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.1</string>
+	<key>CFBundleVersion</key>
+	<string>5</string>
+	<key>Chrome</key>
+	<dict>
+		<key>Global Page</key>
+		<string>base.html</string>
+	</dict>
+	<key>Content</key>
+	<dict>
+		<key>Scripts</key>
+		<dict>
+			<key>End</key>
+			<array>
+				<string>inject.js</string>
+			</array>
+		</dict>
+		<key>Whitelist</key>
+		<array>
+			<string>http://*.google.com/reader/view*</string>
+			<string>http://*.google.cz/reader/view*</string>
+			<string>https://*.google.cz/reader/view*</string>
+			<string>http://*.google.co.uk/reader/view*</string>
+			<string>https://*.google.co.uk/reader/view*</string>
+			<string>http://*.google.fr/reader/view*</string>
+			<string>https://*.google.fr/reader/view*</string>
+			<string>http://*.google.es/reader/view*</string>
+			<string>https://*.google.es/reader/view*</string>
+			<string>http://*.google.pt/reader/view*</string>
+			<string>https://*.google.pt/reader/view*</string>
+			<string>http://*.google.co.jp/reader/view*</string>
+			<string>https://*.google.co.jp/reader/view*</string>
+			<string>http://*.google.co.in/reader/view*</string>
+			<string>https://*.google.co.in/reader/view*</string>
+			<string>https://*.google.com/reader/view*</string>
+		</array>
+	</dict>
+	<key>Description</key>
+	<string>A simple port of Helvetireader's Greasekit script to Safari 5.</string>
+	<key>ExtensionInfoDictionaryVersion</key>
+	<string>1.0</string>
+	<key>Permissions</key>
+	<dict>
+		<key>Website Access</key>
+		<dict>
+			<key>Include Secure Pages</key>
+			<true/>
+			<key>Level</key>
+			<string>All</string>
+		</dict>
+	</dict>
+	<key>Website</key>
+	<string>http://helvetireader.com</string>
+</dict>
+</plist>
