@@ -62,6 +62,8 @@
 			<string>All</string>
 		</dict>
 	</dict>
+	<key>Update Manifest URL</key>
+	<string>http://github.com/downloads/KirinDave/Helvetireader-for-Safari-5/helvetireader-update-manifest.plist</string>
 	<key>Website</key>
 	<string>http://helvetireader.com</string>
 </dict>
