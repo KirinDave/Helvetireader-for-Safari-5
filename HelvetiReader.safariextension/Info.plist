@@ -46,6 +46,8 @@
 			<string>http://*.google.co.in/reader/view*</string>
 			<string>https://*.google.co.in/reader/view*</string>
 			<string>https://*.google.com/reader/view*</string>
+			<string>http://*.google.de/reader/view*</string>
+			<string>https://*.google.de/reader/view*</string>
 		</array>
 	</dict>
 	<key>Description</key>
